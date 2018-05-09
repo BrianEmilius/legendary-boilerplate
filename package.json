@@ -1,0 +1,30 @@
+{
+  "name": "legendary-boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=boilerplate:*,-not-this gulp serve",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianEmilius/legendary-boilerplate.git"
+  },
+  "author": "Brian Emilius <brian@brianemilius.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianEmilius/legendary-boilerplate/issues"
+  },
+  "homepage": "https://github.com/BrianEmilius/legendary-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "debug": "^3.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webpack": "^1.5.0",
+    "jest": "^22.4.3",
+    "webpack": "^4.6.0"
+  }
+}
